@@ -1,0 +1,23 @@
+{
+  "name": "dev",
+  "dockerComposeFile": ["compose.yml"],
+  "service": "dev",
+  "workspaceFolder": "/workspace",
+  "remoteEnv": {
+    "EDITOR": "code --wait"
+  },
+  "remoteUser": "devuser",
+  "initializeCommand": "${localWorkspaceFolder}/.devcontainer/commands/initialize.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "GitHub.vscode-pull-request-github",
+        "chrislajoie.vscode-modelines",
+        "exiasr.hadolint",
+        "rust-lang.rust-analyzer",
+        "vivaxy.vscode-conventional-commits"
+      ]
+    }
+  }
+}

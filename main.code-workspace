@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "conventionalCommits.gitmoji": false,
+    "rust-analyzer.check.command": "clippy",
+    "conventionalCommits.scopes": ["app", "infra", "dev"]
+  }
+}
